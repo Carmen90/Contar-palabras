@@ -1,0 +1,82 @@
+﻿Compilación iniciada a las 06/03/2013 19:50:00.
+     1>Proyecto "c:\Users\Debbie\documents\visual studio 2010\Projects\EdaLab2\EdaLab2\EdaLab2.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Debug\EdaLab2.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Trenes.cpp
+         Trenes.cpp
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(557): error C2086: 'Lista<T> list' : nueva definición
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(554) : vea la declaración de 'list'
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(562): error C3861: 'getLine': no se encontró el identificador
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(568): error C2143: error de sintaxis : falta ';' delante de 'while'
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(566): error C3861: 'getNext': no se encontró el identificador
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(568): error C2065: 'fin' : identificador no declarado
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(572): error C3861: 'getLine': no se encontró el identificador
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(574): error C2065: 'fin' : identificador no declarado
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(582): error C3861: 'getLine': no se encontró el identificador
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(585): error C3861: 'getNext': no se encontró el identificador
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(587): error C2678: '==' binario : no se encontró un operador que adopte un operando en la parte izquierda de tipo 'std::string' (o bien no existe una conversión aceptable)
+                 c:\program files\microsoft visual studio 10.0\vc\include\exception(470): puede ser 'bool std::operator ==(const std::_Exception_ptr &,const std::_Exception_ptr &)'
+                 c:\program files\microsoft visual studio 10.0\vc\include\exception(475): o       'bool std::operator ==(std::_Null_type,const std::_Exception_ptr &)'
+                 c:\program files\microsoft visual studio 10.0\vc\include\exception(481): o       'bool std::operator ==(const std::_Exception_ptr &,std::_Null_type)'
+                 c:\program files\microsoft visual studio 10.0\vc\include\system_error(408): o       'bool std::operator ==(const std::error_code &,const std::error_condition &)'
+                 c:\program files\microsoft visual studio 10.0\vc\include\system_error(416): o       'bool std::operator ==(const std::error_condition &,const std::error_code &)'
+                 'Lista<T>::primero': falta la lista de argumentos de la llamada a la función; utilice '&Lista<T>::primero' para crear un puntero al miembro
+                 with
+                 [
+                     T=int
+                 ]
+                 al hacer coincidir la lista de argumentos '(std::string)'
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(589): error C3867: 'Lista<T>::inicio': falta la lista de argumentos de la llamada a la función; utilice '&Lista<T>::inicio' para crear un puntero al miembro
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(590): error C3861: 'getNext': no se encontró el identificador
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(592): error C3861: 'getNext': no se encontró el identificador
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(594): error C2678: '!=' binario : no se encontró un operador que adopte un operando en la parte izquierda de tipo 'std::string' (o bien no existe una conversión aceptable)
+                 c:\program files\microsoft visual studio 10.0\vc\include\system_error(425): puede ser 'bool std::operator !=(const std::error_code &,const std::error_condition &)'
+                 c:\program files\microsoft visual studio 10.0\vc\include\system_error(432): o       'bool std::operator !=(const std::error_condition &,const std::error_code &)'
+                 'Lista<T>::primero': falta la lista de argumentos de la llamada a la función; utilice '&Lista<T>::primero' para crear un puntero al miembro
+                 with
+                 [
+                     T=int
+                 ]
+                 al hacer coincidir la lista de argumentos '(std::string)'
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(605): error C2678: '==' binario : no se encontró un operador que adopte un operando en la parte izquierda de tipo 'std::string' (o bien no existe una conversión aceptable)
+                 c:\program files\microsoft visual studio 10.0\vc\include\exception(470): puede ser 'bool std::operator ==(const std::_Exception_ptr &,const std::_Exception_ptr &)'
+                 c:\program files\microsoft visual studio 10.0\vc\include\exception(475): o       'bool std::operator ==(std::_Null_type,const std::_Exception_ptr &)'
+                 c:\program files\microsoft visual studio 10.0\vc\include\exception(481): o       'bool std::operator ==(const std::_Exception_ptr &,std::_Null_type)'
+                 c:\program files\microsoft visual studio 10.0\vc\include\system_error(408): o       'bool std::operator ==(const std::error_code &,const std::error_condition &)'
+                 c:\program files\microsoft visual studio 10.0\vc\include\system_error(416): o       'bool std::operator ==(const std::error_condition &,const std::error_code &)'
+                 'Lista<T>::ultimo': falta la lista de argumentos de la llamada a la función; utilice '&Lista<T>::ultimo' para crear un puntero al miembro
+                 with
+                 [
+                     T=int
+                 ]
+                 al hacer coincidir la lista de argumentos '(std::string)'
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(607): error C3867: 'Lista<T>::resto': falta la lista de argumentos de la llamada a la función; utilice '&Lista<T>::resto' para crear un puntero al miembro
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(608): error C3861: 'getNext': no se encontró el identificador
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(610): error C3861: 'getNext': no se encontró el identificador
+     1>c:\users\debbie\documents\visual studio 2010\projects\edalab2\edalab2\trenes.cpp(612): error C2678: '!=' binario : no se encontró un operador que adopte un operando en la parte izquierda de tipo 'std::string' (o bien no existe una conversión aceptable)
+                 c:\program files\microsoft visual studio 10.0\vc\include\system_error(425): puede ser 'bool std::operator !=(const std::error_code &,const std::error_condition &)'
+                 c:\program files\microsoft visual studio 10.0\vc\include\system_error(432): o       'bool std::operator !=(const std::error_condition &,const std::error_code &)'
+                 'Lista<T>::ultimo': falta la lista de argumentos de la llamada a la función; utilice '&Lista<T>::ultimo' para crear un puntero al miembro
+                 with
+                 [
+                     T=int
+                 ]
+                 al hacer coincidir la lista de argumentos '(std::string)'
+     1>Compilación del proyecto terminada "c:\Users\Debbie\documents\visual studio 2010\Projects\EdaLab2\EdaLab2\EdaLab2.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:00.90
